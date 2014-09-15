@@ -1,0 +1,29 @@
+# Create a variable named x and format its string with the value 10
+x= "There are %d types of people." % 10
+
+# Create a variable named binary and assign the value: 'binary'
+binary = "binary"
+
+# Create a variable named do_not and assign the value: "don't"
+do_not = "don't"
+
+# Create a variable named y and format its string with the value 
+# of the variables: binary and do_not
+# Should print: Those who know binary and those who don't.
+y = "Those who know %s and those who %s." % (binary, do_not)
+
+print x # print the value of x
+print y # print the value of y
+
+print "I said: %r." % x 
+print "I also said: '%s'." % y
+
+hilarious = False
+joke_evaluation = "Isn't that joke so funny?! %r"
+
+print joke_evaluation % hilarious
+
+w = "This is the left side of..."
+e = "a string with with a right side."
+
+print w + e
