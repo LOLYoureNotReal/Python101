@@ -1,0 +1,37 @@
+# Working with variables
+#
+#
+##########################
+
+# Store the number 100 into a variable named cars
+# Number of cars available: 100
+cars = 100
+# Store the floating-point number 4.0 into a variable named
+# space_in_a_car
+# Space available in each car 4.0
+space_in_a_car = 4.0 # floating-point not neccessary
+# Store the number 30 into a variable named drivers
+# number of drivers available: 30
+drivers = 30
+# Store the number 90 into a variable named passengers
+# Number of passengers available: 90
+passengers = 90
+# Calculate the value of the variables cars - drivers
+# Store the new value into a variable named cars_not_driven
+cars_not_driven = cars - drivers
+# Store the value in the variable drivers into a variable named
+# cars_driven
+cars_driven = drivers
+# Calculate the value of the variables cars_driven * space_in_a_car
+# Store the new value into a variable named carpool_capacity
+carpool_capacity = cars_driven * space_in_a_car
+# Calculate the value of the variables passengers / cars_driven
+# Store the new value into a variable named average_passengers_per_car
+average_passengers_per_car = passengers / cars_driven
+
+print "There are", cars, "cars available." # 100 cars
+print "There are only", drivers, "drivers available." # 30 drivers
+print "There will be", cars_not_driven, "empty cars today." # 70 cars left
+print "We can transport", carpool_capacity, "people today." # 120 carpool capacity
+print "We have", passengers, "to carpool today." # 90 passengers
+print "We need to put about", average_passengers_per_car, "in each car." # 3 passengers
